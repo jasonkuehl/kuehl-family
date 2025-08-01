@@ -11,8 +11,7 @@ body {
     font-size: 17px;
     font-weight: 300;
     overflow-x: hidden;
-    color: white;
-    background-color: #2C353C;
+    color: rgb(0, 0, 0);
 }
 
 a { 
@@ -33,8 +32,7 @@ p { line-height: 1.9; }
     border: 0;
     border-radius: 0;
     transform: skewX(-15deg);
-    background-color: rgba(0,0,0,0.5);
-    color: white;    
+    color: rgb(0, 0, 0);    
 }
 
 .navbar-toggler i { transform: skewX(15deg); }
@@ -49,7 +47,7 @@ p { line-height: 1.9; }
 .navbar-expand-lg .navbar-nav .tm-nav-link {
     font-size: 1.3rem;
     font-weight: 400;
-    color: white;    
+    color: rgb(0, 0, 0);    
     padding-bottom: 30px;    
 }
 
@@ -59,7 +57,7 @@ p { line-height: 1.9; }
 
 .nav-item.active .tm-nav-link,
 .nav-item:hover .tm-nav-link {
-    color: #9CC;
+    color: rgb(255, 255, 255);
 }
 
 /* Page Background */
@@ -260,7 +258,7 @@ textarea {
 
     .nav-item.active .tm-nav-link,
     .nav-item:hover .tm-nav-link {
-        color: #9CC;
+        color: rgb(255, 255, 255);
     }
 
     .tm-content { margin-top: 20px; }
